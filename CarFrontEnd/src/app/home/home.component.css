@@ -1,0 +1,47 @@
+.home-back{
+    height:100vh;
+    background-image: url('https://img.freepik.com/premium-vector/exhibition-pavilion-showroom-dealership_169241-3215.jpg?w=900'); 
+    background-size: cover;
+}  
+nav{
+    background-color:brown;
+}
+#nav-car{
+    font-style: italic; 
+    font-weight:bold;
+    font-size:25px; 
+    color:white; 
+    width :130px; 
+    padding:3px; 
+    border-radius: 10px; 
+} 
+#nav-login{
+    color:white;
+    border : 2px solid; 
+    background-color:rgb(252, 7, 7); 
+    border-radius: 10px;  
+    height:43px;
+    font-size:18px; 
+    font-weight:500;  
+    margin-right: 10PX;
+}
+#nav-login:hover{ 
+    background-color: green;
+}
+#nav-sing{
+    font-size:18px; 
+    font-weight:500; 
+    color:white;
+    border : 2px solid; 
+    background-color:blue; 
+    border-radius: 10px;  
+    height:43px;
+} 
+#nav-sing:hover{
+    background-color:green;
+}
+.nav-image{
+    height:40px; 
+    width:60px ; 
+    border-radius: 10px;
+} 

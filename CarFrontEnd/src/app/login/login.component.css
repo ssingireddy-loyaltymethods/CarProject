@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    background-color:yellowgreen  ;
+    padding-top : 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    height:100vh; 
+} 
+h1{
+    font-size : 30px ;
+    color : red ; 
+    font-weight : 700 ;
+}

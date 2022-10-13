@@ -1,0 +1,26 @@
+
+<div class="form-wrapper">
+    <div class="car-form">
+        <h2 class="text-center text-info">Add Car</h2>
+        <div class="group">
+            <label>Name</label>
+            <input type = "text" class="form-control" required [(ngModel)] = "carname" name = "carname">
+        </div>
+        <div class="group">
+            <label>Model</label>
+            <input type = "text" class="form-control" required [(ngModel)] = "model" name = "model">
+        </div>
+        <div class="group">
+            <label>Type</label>
+            <input type = "text" class="form-control" required [(ngModel)] = "type" name = "type">
+        </div>
+        <div class="group">
+            <label>Price</label>
+            <input type = "number" class="form-control" required [(ngModel)] = "price" name = "price">
+        </div> 
+        <div class="action">
+            <button class="btn btn-primary save" (click)="add()">Add Car</button> 
+            <button class="btn btn-danger cancel" (click)="closeForm()">Close</button>
+        </div>
+    </div>
+</div> 

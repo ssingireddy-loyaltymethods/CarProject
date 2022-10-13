@@ -1,0 +1,76 @@
+<div class="nav-back">
+
+    <nav class="navbar navbar-expand-lg">
+
+        <a><img routerLink = "/home" src="https://img.freepik.com/premium-photo/modern-family-hybrid-car-red-white-surface-with-shadow-ground_101266-3361.jpg?size=626&ext=jpg&ga=GA1.2.79028399.1663747707" class = "nav-image"/></a> 
+        
+        <a class="navbar-brand" routerLink = "/home" id="nav-car">Royal Motors</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> 
+
+            <marquee *ngFor = "let car of cars " direction="right" behavior="slide alternate" style="color :yellow;font-size:18px; font-weight: 500;" scrollamount="5" >  
+                {{car.name}}
+            </marquee> 
+
+          <div class="navbar-nav ml-auto">
+
+            <a class="nav-link active" routerLink = '/home' id="nav-home">Home</a>
+
+            <a class="nav-link active" routerLink = '/login' id="nav-logout" (click)="logout()">LogOut</a>
+            
+          </div>
+
+        </div>
+
+      </nav>  
+
+    </div>
+
+<div class="dashboard"> 
+
+    <div class=" container car-table">
+
+        <div class="headers">
+
+            <h2>Available Cars</h2>
+
+        </div>
+
+    <table class="table">
+
+        <thead>
+
+            <tr>
+    
+                <th>Name</th>
+                <th>Model</th>
+                <th>Type</th>
+                <th>Price</th>
+                
+            </tr>
+
+        </thead>
+
+        <tbody class="text-center">
+
+            <tr *ngFor = "let car of cars">  
+
+                <td>{{car['name']}}</td>
+                <td>{{car['model']}}</td>
+                <td>{{car['type']}}</td>
+                <td>{{car['price']}}</td>
+               
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    </div> 
+</div>

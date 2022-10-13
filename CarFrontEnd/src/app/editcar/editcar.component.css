@@ -1,0 +1,35 @@
+.form-wrapper{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    width : 100% ;
+    position: absolute; 
+    top: 0 ;
+    left : 0 ;
+    background-color:rgba(0,0,0,1.0); 
+    z-index : 100 ; 
+} 
+.car-form{
+    background-color: white;
+    width: 600px; 
+    padding: 20px 50px; 
+    border-radius: 5px;
+} 
+.group{
+    display: flex; 
+    margin: 15px 0px; 
+    
+}
+.group label{
+    width : 70px; 
+    line-height : 40px;
+    height: 40px ;
+
+}
+.action{
+    display: flex;  
+    justify-content: center;
+    gap : 100px ;
+    margin: 20px;
+} 

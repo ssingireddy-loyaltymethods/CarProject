@@ -1,0 +1,75 @@
+.dashboard{
+    display:flex; 
+    justify-content: center; 
+    background-image: radial-gradient(red,blue,green); 
+    min-height: 100%;
+}
+.car-table{
+    padding : 25px 25px ;
+    background-color: white; 
+    border-radius: 3px; 
+    margin: 30px 0px; 
+    text-align: center;
+} 
+
+.headers{
+    display: flex; 
+    padding : 16px 30px;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: #43574d; 
+    color : white ;
+} 
+
+th{
+   text-align: center; 
+    color : red;
+} 
+
+
+#nav-car{
+    font-style: italic; 
+    font-weight:bold;
+    font-size:23px; 
+    color:white; 
+    width :130px; 
+    padding:3px; 
+    border-radius: 10px; 
+} 
+
+#nav-home{
+    color:lawngreen; 
+    font-size:18px; 
+    font-weight:500; 
+    color : white ;
+    border : 2px solid; 
+    background-color:blue; 
+    border-radius: 10px;  
+    height:45px; 
+    margin-right:10px;
+}  
+#nav-home:hover{
+    background-color:green;
+}
+nav{
+    background-color: #43574d;
+}
+
+#nav-logout{
+    color:lawngreen; 
+    font-size:18px; 
+    font-weight:500;  
+    color:white;
+    border : 2px solid; 
+    background-color:red; 
+    border-radius: 10px;  
+    height:43px;
+}   
+#nav-logout:hover{
+    background-color:green;
+}
+.nav-image{
+    height:40px; 
+    width:60px ; 
+    border-radius: 10px;
+} 
